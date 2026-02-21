@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Holtwood+One+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind+Vadodara:wght@400;700&display=swap');
+@media (max-width: 900px) {
+    #todas {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    #tocando {
+        margin: 20px 0;
+    }
+}
+
+body{
+    background-image: linear-gradient(to right,
+    #013428,
+    #029A76);
+}
+
+#titulo{
+    color: #FFE100;
+    text-shadow: 2px 2px 4px rgb(206, 178, 20);
+    font-family: 'Holtwood One SC', serif;
+    font-size: 45px;
+    max-width: 800px;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+h3{
+  font-family: 'Hind Vadodara', sans-serif ;
+  max-width: 800px;
+  font-size: 40px;
+  margin-left: 50px;
+  color: white;
+  
+}
+
+#saiba{
+   padding:40px 90px;
+   margin-top: 50px;
+   margin-left: 80px;
+   background-color: rgb(128, 11, 11);
+   font-weight: bolder;
+   color: white;
+   border-radius: 12%;
+   font-size: 20px;
+}
+
+#matricular{
+    margin-left: 80px;
+    margin-top: 50px;
+    font-weight: bold;
+    color: white;
+    background-color: #9EF01A;
+    padding:40px 70px;
+    border-radius: 12%;
+    font-size: 20px;
+    
+}
+
+#todas{
+      display: flex;
+  justify-content: space-between;
+  gap: 10px
+}
+
+#tocando{
+       width: 420px;
+  height: auto;
+  border-radius: 10%;
+  margin-right: 140px;
+  margin-top: 50px;
+}
+
+#info{
+    color: white;
+    font-size: 30px;
+}
+
+#feita{
+    color:white;
+    font-size: 30px;
+    font-family: sans-serif;
+}
+
+button {
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+button:hover {
+    transform: scale(1.05);
+}
+
+.dark{
+    background-image: none;
+    background-color: #111;
+    color: white;
+}
+
+#escuro{
+    position: fixed;
+    top: 20px;         
+    right: 20px;
+    padding: 8px 14px;
+    font-size: 14px;
+    border-radius: 8px;
+    }
+    
+
+.esc{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    
+}
